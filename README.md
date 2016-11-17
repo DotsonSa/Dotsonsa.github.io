@@ -8,7 +8,8 @@
 
 1. Color
     * Gray is awful, so dull
-[]  change color
+
+- [ ]  change color
 
 
 2. jQuery
