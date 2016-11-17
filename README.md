@@ -7,8 +7,13 @@
 
 
 1. Color
-* Gray is awful, so dull
+    * Gray is awful, so dull
+[]  change color
+
+
 2. jQuery
-* Mess around so only one section opened, and only one bookmark list is open
+    * Mess around so only one section opened, and only one bookmark list is open
+
+
 3. Sass
-* Really just use this project to try out breaking up my css into smaller bits and have various modules
+    * Really just use this project to try out breaking up my css into smaller bits and have various modules
