@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Droid+Sans" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Droid+Serif" />
+    <title>Bookmarks</title>
+  </head>
+<!-- body begin -->
+  <body>
+    <section class="default-container">
+      <a href="#" class="anchor-button">
+        <h1>Bookmarks</h1>
+      </a>
+      <!-- Default Section -->
+      <ul>
+        <li> <a href="http://www.google.com">google</a> </li>
+      </ul>
+      <ul>
+        <li> <a href="http://www.google.com">google</a> </li>
+      </ul>
+      <ul>
+        <li> <a href="http://www.google.com">google</a> </li>
+      </ul>
+    </section>
+    <nav>
+      <div class="nav-wrapper">
+        <div class="col-wrapper">
+          <!-- 1st Column -->
+          <section class="cate-container">
+            <a href="#" class="anchor-button">
+              <h2>1st Category</h2>
+            </a>
+            <section class="bookmark-container">
+              <a href="#" class="anchor-button">
+               <h3>1st Bookmarks</h3>
+              </a>
+              <ul>
+                <li> <a href="http://www.google.com">google</a> </li>
+              </ul>
+            </section>
+            <section class="bookmark-container">
+              <a href="#" class="anchor-button">
+               <h3>2nd Bookmarks</h3>
+              </a>
+              <ul>
+                <li> <a href="http://www.google.com">google</a> </li>
+              </ul>
+            </section>
+          </section>
+          <!-- 2nd Section -->
+          <section class="cate-container">
+            <a href="#" class="anchor-button">
+              <h2>2nd Category</h2>
+            </a>
+            <section class="bookmark-container">
+              <a href="#" class="anchor-button">
+               <h3>1st Bookmarks</h3>
+              </a>
+              <ul>
+                <li> <a href="http://www.google.com">google</a> </li>
+              </ul>
+            </section>
+            <section class="bookmark-container">
+              <a href="#" class="anchor-button">
+               <h3>2nd Bookmarks</h3>
+              </a>
+              <ul>
+                <li> <a href="http://www.google.com">google</a> </li>
+              </ul>
+            </section>
+          </section>
+        </div>
+        <!-- 2nd Column -->
+        <div class="col-wrapper">
+          <!-- 1st Section -->
+          <section class="cate-container">
+            <a href="#" class="anchor-button">
+              <h2>3rd Category</h2>
+            </a>
+            <section class="bookmark-container">
+              <a href="#" class="anchor-button">
+               <h3>1st Bookmarks</h3>
+              </a>
+              <ul>
+                <li> <a href="http://www.google.com">google</a> </li>
+              </ul>
+            </section>
+            <section class="bookmark-container">
+              <a href="#" class="anchor-button">
+               <h3>2nd Bookmarks</h3>
+              </a>
+              <ul>
+                <li> <a href="http://www.google.com">google</a> </li>
+              </ul>
+            </section>
+          </section>
+          <!-- 2nd Section -->
+          <section class="cate-container">
+            <a href="#" class="anchor-button">
+              <h2>4th Category</h2>
+            </a>
+            <section class="bookmark-container">
+              <a href="#" class="anchor-button">
+               <h3>1st Bookmarks</h3>
+              </a>
+              <ul>
+                <li> <a href="http://www.google.com">google</a> </li>
+              </ul>
+            </section>
+            <section class="bookmark-container">
+              <a href="#" class="anchor-button">
+               <h3>2nd Bookmarks</h3>
+              </a>
+              <ul>
+                <li> <a href="http://www.google.com">google</a> </li>
+              </ul>
+            </section>
+          </section>
+        </div>
+        <div class="col-wrapper">
+          <!-- 3rd Column -->
+          <section class="cate-container">
+            <a href="#" class="anchor-button">
+              <h2>5th Category</h2>
+            </a>
+            <section class="bookmark-container">
+              <a href="#" class="anchor-button">
+               <h3>1st Bookmarks</h3>
+              </a>
+              <ul>
+                <li> <a href="http://www.google.com">google</a> </li>
+              </ul>
+            </section>
+            <section class="bookmark-container">
+              <a href="#" class="anchor-button">
+               <h3>2nd Bookmarks</h3>
+              </a>
+              <ul>
+                <li> <a href="http://www.google.com">google</a> </li>
+              </ul>
+            </section>
+          </section>
+          <!-- 2nd Section -->
+          <section class="cate-container">
+            <a href="#" class="anchor-button">
+              <h2>6th Category</h2>
+            </a>
+            <section class="bookmark-container">
+              <a href="#" class="anchor-button">
+               <h3>1st Bookmarks</h3>
+              </a>
+              <ul>
+                <li> <a href="http://www.google.com">google</a> </li>
+              </ul>
+            </section>
+            <section class="bookmark-container">
+              <a href="#" class="anchor-button">
+               <h3>2nd Bookmarks</h3>
+              </a>
+              <ul>
+                <li> <a href="http://www.google.com">google</a> </li>
+              </ul>
+            </section>
+          </section>
+        </div>
+      </div>
+    </nav>
+    <!-- jQuery scripts -->
+    <script src="jquery.js"></script>
+    
+    <script>
+      $( document ).ready(function() {
+        $( ".anchor-button" ).click(function( event) {
+          var elem = $( this );
+          $( elem ).siblings().toggle();
+        });
+      });
+    </script>
+  <body>
+</html>

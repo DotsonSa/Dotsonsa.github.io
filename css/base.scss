@@ -1,0 +1,112 @@
+@import 'normalize.css';
+
+@mixin clearfix {
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+     }
+}
+
+html {
+  margin: 0 auto;
+  width: 100%;
+}
+
+body {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #fffffa;
+  color: #556;
+}
+
+/* Headings */
+
+h1, h2, h3{
+  font-family: 'Droid Serif';
+  font-weight: 400;
+  margin: 0.5em auto;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.75em;
+  //background color needed for default
+}
+
+h2 {
+  font-size: 1.75em;
+  text-align: center;
+}
+
+/* Content */
+
+.col-wrapper {
+  width: 33%;
+  margin: 0 auto;
+  padding: 0;
+  float: left;
+}
+
+li {
+  font-family: 'Droid Sans';
+  margin: .25em;
+}
+
+.default-container {
+  @include clearfix;
+}
+
+.cate-container {
+  border: 1px #ccccc8 solid;
+  margin: 1.5%;
+  border-radius: 2em .25em;
+  background-color: #ccccc8;
+}
+
+.bookmark-container {
+  display: none;
+  background-color: #a3a3a0;
+  margin: .25em;
+  padding: .1em;
+  border-radius: inherit;
+  .bookmark-container :first {
+    display: block;
+  }
+}
+
+.anchor-button {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  display: block;
+}
+
+a {
+  color: black;
+}
+
+ul {
+  display: none;
+  list-style: none;
+  padding: .25em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.default-container > ul {
+  display: block;
+  background: #ccccc8;
+  border-radius: 2em .25em;
+  width: 33%;
+  float: left; 
+  padding: 0;
+}
+
+.default-container > ul > li {
+  display: inline-block;
+  text-indent: 0;
+  margin: .75em;
+}
