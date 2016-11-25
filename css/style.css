@@ -42,14 +42,14 @@ li {
   clear: both; }
 
 .cate-container {
-  border: 1px #ccccc8 solid;
+  border: 1px #fffffa solid;
   margin: 1.5%;
   border-radius: 2em .25em;
-  background-color: #ccccc8; }
+  background-color: rgba(204, 204, 199, 0.3); }
 
 .bookmark-container {
   display: none;
-  background-color: #a3a3a0;
+  background-color: #ccccc7;
   margin: .25em;
   padding: .1em;
   border-radius: inherit; }
@@ -70,15 +70,17 @@ ul {
   list-style: none;
   padding: .25em;
   margin: 0 auto;
-  text-align: center; }
+  text-indent: 3em; }
 
 .default-container > ul {
   display: block;
-  background: #ccccc8;
+  background: #ccccc7;
   border-radius: 2em .25em;
   width: 33%;
   float: left;
-  padding: 0; }
+  padding: 0;
+  text-indent: 0;
+  text-align: center; }
 
 .default-container > ul > li {
   display: inline-block;
