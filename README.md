@@ -6,12 +6,6 @@
 ###Plan to change list:
 
 
-1. Color
-    * Gray is awful, so dull
-
-- [ ]  change color
-
-
 2. jQuery
     * Mess around so only one section opened, and only one bookmark list is open
 
