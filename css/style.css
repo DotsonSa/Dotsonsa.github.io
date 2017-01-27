@@ -43,15 +43,16 @@ li {
 
 .cate-container {
   border: 1px #fffffa solid;
-  margin: 1.5%;
+  margin: 2em 1.5%;
+  padding: .5em 0;
   border-radius: 2em .25em;
   background-color: rgba(204, 204, 199, 0.3); }
 
 .bookmark-container {
   display: none;
   background-color: #ccccc7;
-  margin: .25em;
-  padding: .1em;
+  margin: .5em .25em;
+  padding: .25em .1em;
   border-radius: inherit; }
   .bookmark-container .bookmark-container :first {
     display: block; }
