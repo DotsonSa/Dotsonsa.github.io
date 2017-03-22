@@ -6,6 +6,8 @@
 
 ### Plan to change list:
 
+1. colors
+    * Change colors up with light colors besides terrible gray/white/black, and probably increase margins because it's simple
 
 2. jQuery
     * Mess around so only one section opened, and only one bookmark list is open
