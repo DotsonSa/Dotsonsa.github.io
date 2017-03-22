@@ -6,8 +6,8 @@
 
 ### Plan to change list:
 
-1. colors
-    * Change colors up with light colors besides terrible gray/white/black, and probably increase margins because it's simple
+1. Random color palette
+    * Manage Sass to select a random color palette, means collecting my various CSS colors around the file and rounding them up and somehow select one of a few. Also, not sure of these green colors.
 
 2. jQuery
     * Mess around so only one section opened, and only one bookmark list is open
