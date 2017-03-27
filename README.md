@@ -6,12 +6,9 @@
 
 ### Plan to change list:
 
-1. Random color palette
-    * Manage Sass to select a random color palette, means collecting my various CSS colors around the file and rounding them up and somehow select one of a few. Also, not sure of these green colors.
-
-2. jQuery
+1. jQuery
     * Mess around so only one section opened, and only one bookmark list is open
+    * Already have classes set up for the random palette, now need to make a function that removes the class and replaces it with other color classes
 
-
-3. Sass
+2. Sass
     * Really just use this project to try out breaking up my css into smaller bits and have various modules
