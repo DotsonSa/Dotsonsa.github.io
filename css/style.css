@@ -7,15 +7,15 @@ body {
   max-width: 90%;
   margin: 0 auto;
   padding: 0;
-  background-color: #BEE599;
-  color: #162C00; }
+  color: inherit; }
 
 /* Headings */
 h1, h2, h3 {
   font-family: 'Droid Serif';
   font-weight: 400;
   margin: 0.5em auto;
-  padding: 0; }
+  padding: 0;
+  color: inherit; }
 
 h1 {
   text-align: center;
@@ -27,10 +27,13 @@ h2 {
 
 /* Content */
 .col-wrapper {
-  width: 33%;
+  width: 100%;
   margin: 0 auto;
   padding: 0;
   float: left; }
+  @media (min-width: 800px) {
+    .col-wrapper {
+      width: 33.3%; } }
 
 li {
   font-family: 'Droid Sans';
@@ -44,12 +47,10 @@ li {
 .cate-container {
   margin: 3em 1.5%;
   padding: .5em 0;
-  border-radius: 2em .25em;
-  background-color: rgba(65, 114, 19, 0.5); }
+  border-radius: 2em .25em; }
 
 .bookmark-container {
   display: none;
-  background-color: #8ebf5f;
   margin: 1em .25em;
   padding: .25em .1em;
   border-radius: inherit; }
@@ -58,12 +59,12 @@ li {
 
 .anchor-button {
   text-decoration: none;
-  color: #162C00;
+  color: inherit;
   text-align: center;
   display: block; }
 
 a {
-  color: #162C00; }
+  color: inherit; }
 
 ul {
   display: none;
@@ -76,15 +77,18 @@ ul {
   margin-bottom: 3em; }
 
 .default-container > ul {
-  display: block;
-  background: #8abf5f;
+  display: hidden;
   border-radius: 2em .25em;
-  width: 33%;
+  width: 100%;
   float: left;
   padding: 0;
   margin: 1em auto;
   text-indent: 0;
   text-align: center; }
+  @media (min-width: 1000px) {
+    .default-container > ul {
+      width: 33.3%;
+      display: block; } }
 
 .default-container > ul > li {
   display: inline-block;
@@ -96,15 +100,41 @@ ul {
   padding: .75em 0;
   margin: 1em auto;
   text-align: center;
-  background-color: #8ebf5f;
   border-radius: 0 4em;
   display: inline-block; }
   .should li {
-    display: inline-block;
-    margin: 0 .75em;
     text-indent: 0; }
+    @media (min-width: 1000px) {
+      .should li {
+        width: auto;
+        margin: 0 .75em;
+        display: inline-block; } }
     .should li p {
       margin: 0;
-      color: #162C00; }
+      color: inherit; }
+
+.blue-font {
+  color: #052136; }
+
+.blue-bg {
+  background-color: #466984; }
+
+.blue-dark {
+  background-color: #294e6b; }
+
+.blue-light {
+  background-color: #6e8aa0; }
+
+.green-font {
+  color: #162c00; }
+
+.green-bg {
+  background-color: #bee599; }
+
+.green-dark {
+  background-color: rgba(65, 114, 19, 0.5); }
+
+.green-light {
+  background-color: #8ebf5f; }
 
 /*# sourceMappingURL=style.css.map */
