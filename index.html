@@ -180,6 +180,20 @@
           var elem = $( this );
           $( elem ).siblings().toggle();
         });
+
+	// variables for random color palette
+	var palettes = [ ' green', ' blue', ' pink', ' orange'];
+	var rand = palettes[Math.floor(Math.random() * palettes.length)];
+	var light = rand+'-light';
+	var dark = rand+'-dark';
+	var body = rand+'-font'+rand+'-bg';
+
+	// various class replacemnts
+	$( "body" ).attr( "class", body );
+	$( ".default-container > ul" ).attr( "class", "default-container" +light );
+	$( ".bookmark-container" ).attr( "class", "bookmark-container" +dark );
+	$( ".cate-container" ).attr( "class", "cate-container" +light );
+	$( ".should" ).attr( "class", "should" +light );
       });
     </script>
   <body>

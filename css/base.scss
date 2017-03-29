@@ -159,6 +159,16 @@ $green-bg: #bee599;
 $green-dark: rgba(65, 114, 19, 0.5);
 $green-light: #8ebf5f;
 
+$pink-font: #4c0017;
+$pink-bg: #be5f7c;
+$pink-dark: #983352;
+$pink-light: #e498af;
+
+$orange-font: #582801;
+$orange-bg: #ff8a29;
+$orange-dark: #ff7400;
+$orange-light: #ffa458;
+
 .blue-font {
   color: $blue-font;
 }
@@ -189,4 +199,36 @@ $green-light: #8ebf5f;
 
 .green-light {
   background-color: $green-light;
+}
+
+.pink-font {
+  color: $pink-font;
+}
+
+.pink-bg {
+  background-color: $pink-bg;
+}
+
+.pink-dark {
+  background-color: $pink-dark;
+}
+
+.pink-light {
+  background-color: $pink-light;
+}
+
+.orange-font {
+  color: $orange-font;
+}
+
+.orange-bg {
+  background-color: $orange-bg;
+}
+
+.orange-dark {
+  background-color: $orange-dark;
+}
+
+.orange-light {
+  background-color: $orange-light;
 }

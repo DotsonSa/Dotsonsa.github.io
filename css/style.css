@@ -137,4 +137,28 @@ ul {
 .green-light {
   background-color: #8ebf5f; }
 
+.pink-font {
+  color: #4c0017; }
+
+.pink-bg {
+  background-color: #be5f7c; }
+
+.pink-dark {
+  background-color: #983352; }
+
+.pink-light {
+  background-color: #e498af; }
+
+.orange-font {
+  color: #582801; }
+
+.orange-bg {
+  background-color: #ff8a29; }
+
+.orange-dark {
+  background-color: #ff7400; }
+
+.orange-light {
+  background-color: #ffa458; }
+
 /*# sourceMappingURL=style.css.map */
