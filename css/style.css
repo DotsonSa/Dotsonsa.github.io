@@ -78,6 +78,7 @@ ul {
 
 .default-container > ul {
   display: hidden;
+  border: 1px solid;
   border-radius: 2em .25em;
   width: 100%;
   float: left;
@@ -87,7 +88,7 @@ ul {
   text-align: center; }
   @media (min-width: 1000px) {
     .default-container > ul {
-      width: 33.3%;
+      width: 33%;
       display: block; } }
 
 .default-container > ul > li {
@@ -100,6 +101,7 @@ ul {
   padding: .75em 0;
   margin: 1em auto;
   text-align: center;
+  border: 1px solid;
   border-radius: 0 4em;
   display: inline-block; }
   .should li {
