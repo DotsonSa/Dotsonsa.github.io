@@ -6,9 +6,10 @@
 
 ### Plan to change list:
 
-1. jQuery
-    * Mess around so only one section opened, and only one bookmark list is open
-    * Already have classes set up for the random palette, now need to make a function that removes the class and replaces it with other color classes
-
-2. Sass
+1. Sass
     * Really just use this project to try out breaking up my css into smaller bits and have various modules
+
+2. Bottom Aligned
+    * Want should to be bottom aligned with the viewport and document, so that when the expanding menus expand, they eat up the space between it and the bottom aligned element. I also don't want a ton of space to just be between bottom aligned element and the expanding menus because it looks dumb. Tried abosulte positioning, and a filler div won't do well because it will always look dumb when used. 
+
+    * For my personal one, I've decided to just use more space by putting the space inbetween category containers. Works well enough, still might look into fixed position on should for an easier time all around and to make it look just nicer I guess. 
