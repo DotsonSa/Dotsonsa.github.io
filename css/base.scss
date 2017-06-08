@@ -68,6 +68,9 @@ li {
   margin: 3em 1.5%;
   padding: .5em 0;
   border-radius: 2em .25em;
+  @media (min-width: 800px) {
+    margin: 3em 1.5% 7em;
+  }
 }
 
 .bookmark-container {
@@ -138,13 +141,6 @@ ul {
   border: 1px solid;
   border-radius: 0 4em;
   display: inline-block;
-  @media (min-width: 800px) and (min-height: 800px) {
-    width: 90%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
   li {
     text-indent: 0;
     @media (min-width: 1000px) {
