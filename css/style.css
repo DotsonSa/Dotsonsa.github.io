@@ -1,10 +1,12 @@
 @import url(normalize.css);
 html {
   margin: 0 auto;
+  height: 100%;
   width: 100%; }
 
 body {
   max-width: 90%;
+  height: 95%;
   margin: 0 auto;
   padding: 0;
   color: inherit; }
@@ -98,12 +100,20 @@ ul {
 
 .should {
   width: 100%;
+  height: auto;
   padding: .75em 0;
-  margin: 1em auto;
+  margin: 0 auto 1em;
   text-align: center;
   border: 1px solid;
   border-radius: 0 4em;
   display: inline-block; }
+  @media (min-width: 800px) and (min-height: 800px) {
+    .should {
+      width: 90%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0; } }
   .should li {
     text-indent: 0; }
     @media (min-width: 1000px) {
